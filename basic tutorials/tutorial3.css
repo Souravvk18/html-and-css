@@ -126,14 +126,85 @@ p{
 
 
 
-/*     color properties */
+/*     color properties , color and background color*/
+
+/* #first{
+    color: blue;
+    background-color: bisque;
+}
+
+#second {
+    color: aqua;
+    background: blueviolet;
+} */
+
+/*   RGB RED GREEN BLUE 0-255 */
+
+/* #first{
+    color: rgb(255,0,0);
+    background-color: rgb(0,0,0);
+}
+
+#second {
+    color: rgb(0,255,0);
+    background: rgb(255,255,255);
+}
+
+body{
+    background: rgb(100,200, 50);
+} */
 
 
 
+/*  RGBA 0-1 opacity/transparency */
+
+/* #first {
+    color: rgb(22, 65, 207);
+    background: rgba(0,0,0,0.3);
+}
+
+#second {
+    color: rgb(13, 13, 4);
+    background: rgba(255,0,0,0.3);
+}
+#three {
+    color: rgb(245, 23, 45);
+    background: rgba(0,0,0,1);
+}
+
+body{
+    background: rgba(0,0,0,0.15);
+} */
 
 
 
+/* HEX values #RRGGBB 
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+            10 11 12 13 14 15
+            #FF0000 - RED
+            #00FF00 - GREEN
+            #0000ff- Blue
+             
+  go to #coolors website and pick up your fav colors           
+            
+            */
 
+
+#first{
+    color: #f00000;
+    background: #000;
+}
+
+#second{
+    color: #fff;
+    background: #00ff00;
+
+}
+
+#three{
+    color: #0000ff;
+    background: #f15;
+}
 
 
 
