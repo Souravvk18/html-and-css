@@ -1,0 +1,106 @@
+/* CSS variables aka custom properties hold a value and reuse it.
+
+varName:value 
+property: var(--varName) 
+
+scope:- 
+:root{} ===global
+element=== local    */
+
+/* .first{
+    color: orangered;
+}
+
+.text{
+    color: rgb(29, 211, 29);
+}
+
+.main-text{
+    color: blue;
+}
+
+.second{
+    color: orangered;
+} */
+
+                        /* global */
+
+
+/* :root{
+    --primaryColor:orange;
+    --secondaryColor:blue;
+}
+
+.first{
+    color: var(--primaryColor);
+}
+
+.second{
+    color: var(--primaryColor);
+}
+
+.third{
+    color: var(--secondaryColor);
+}
+
+.text{
+    color: var(--secondaryColor);
+}
+
+.second:hover{
+    color: var(--secondaryColor);
+} */
+
+
+                /* local variable */
+
+/* div{
+    --firstColor:rgb(240, 38, 230);
+    --secondColor: rgb(0, 255, 34);
+    
+}
+
+div p{
+    color: var(--firstColor);
+}
+
+.main-text{
+    color: var(--secondColor);
+}
+
+div h2{
+    color: var(--firstColor);
+}
+
+second{
+    color: var(--firstColor);
+} */
+
+                /* ICONS-  Font Awesome Iocons, free,simple running. */
+        
+/* .icon{
+    font-size: 2.5rem;
+    display: block;
+    color: blue;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: rgb(253, 61, 212);
+    transition: 1s;
+} */
+
+                        /* text-shadow, box-shadow */
+
+h1{
+    text-shadow: 1px 2px 3px red;
+}                      
+
+.box{
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+    box-shadow: 5px 5px 10px purple;
+}
+
+

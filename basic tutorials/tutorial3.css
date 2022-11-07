@@ -1,0 +1,265 @@
+
+ /* a{
+    color: black;
+    font-weight: 400;
+    font-size: 2rem;
+ }
+ 
+ h2{
+    color: blueviolet;
+}
+
+h3{
+    color: brown;
+    font-size: 3rem;
+} 
+
+h1{
+    color: blue;
+}
+ 
+p{
+    font-size: 18px;
+    padding: 1rem;
+} */
+
+            /*  element selector */
+
+/* body{
+    color: rgb(25, 0, 255);
+}
+
+h1, h2{
+    color: lawngreen;
+}
+  */
+
+                        /* Id selector */
+
+/* #heading {
+    color: blue;
+    background-color: black;
+}
+
+#subheading {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+
+                /*   class selectors */
+
+/* .green {
+    color: green;
+    background-color: blanchedalmond;
+}
+
+.blue {
+    color: blue;
+    background-color: aliceblue;
+}
+
+#title {
+    font-size: 3rem;
+    color: crimson;
+} */
+
+
+                /*  div, span */
+
+/* div{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+span{
+    text-transform: uppercase;
+    color: rgb(255, 0, 191);
+} */
+
+
+
+/*  inheritance */
+
+/* body{
+    color: red;
+    font-family: serif;
+    line-height: 1.5rem;
+}
+
+div{
+    color: blue;
+    font-size: 1.5rem;
+    border: 3px solid black;
+}
+
+h2{
+    color: black;
+} */
+
+
+
+/*    last rule and specificity,  * universal selector
+
+<<tag << class << id */
+
+
+
+/* p{
+    color: yellow;
+}
+
+p{
+    color: blueviolet;
+}
+
+.para1{
+    color: rgb(220, 9, 195);
+}
+
+#para{
+    color: aqua;
+} */
+
+
+
+/*     color properties */
+
+
+
+
+
+
+
+
+
+
+
+ 
+ /* font size, width, height, pixel */
+
+/* h2{
+    color: blue;
+    font-size: 30px;
+    width: 250px;
+    height: 100px;
+    background-color: bisque;
+}
+
+h1{
+    color: rgb(255, 0, 140);
+    font-size: 40px;
+    width: 200px;
+    background-color: blueviolet;
+} */
+
+
+
+
+                                    /* outer div and inner div */
+
+
+/* .outer{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+}
+
+.inner{
+    width: 70%;
+    height: 50%;
+    background-color: rgb(231, 64, 64);
+    
+}
+
+.inner1{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+} */
+
+/* 
+                             em = relative depend on parent.
+                            1em =16px default browser style (base value)
+                            
+                            rem - reletive depend on root. (best)  */
+
+                         
+
+/* div{
+    font-size: 20px;
+}
+
+.relative {
+    font-size: 32px;
+}
+
+.absolute {
+    font-size: 2rem;
+} */
+
+
+
+
+                /* vh- view height, percent of the screen.
+                vw-  view width - percent of the screen. */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+}
+
+.banner{
+    width: 200px;
+    height: 150px;
+    background-color: red;
+}
+
+.banner{
+    width: 100vw;
+    height: 100vh;
+    background: red;
+} */
+
+
+/* h2{
+    color: blue;
+    font-size: 40px;
+} */
+
+
+                /* calc() --perform math operations  + - * /
+                mix and match value */
+
+/* *{
+    margin: 0;
+}
+
+.navbar{
+    background-color: blue;
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.banner{
+    background-color: red;
+    min-height: 100vh;
+    min-height: calc(100vh - 100px);
+} */
+
+

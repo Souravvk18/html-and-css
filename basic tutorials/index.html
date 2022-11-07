@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a{
+            width: 50px;
+            height: 50px;
+            color: rgb(255, 0, 212);
+            background-color: aquamarine;
+            display: block;
+            margin: 2rem;
+            padding: 1rem;
+        }
+
+        th,td{
+            padding: 10px;
+            border: 1px solid;
+        }
+    </style>
+
+    <script>
+        
+    </script>
+</head>
+<body>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <hr> Qui facilis quod blanditiis iusto saepe, <br> quasi reiciendis sint ipsum laborum harum.</p>
+
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h3>Lorem, ipsum dolor.</h3>
+    
+    <div>
+        <h5> hello world</h5>
+        <hr>
+
+    </div>
+    <div>
+        <div>
+            <p>Lorem ipsum dolor sit <q> amet consectetur adipisicing</q>  elit. Quis, laborum.</p>
+        </div>
+    </div>
+        <ul>
+            <li> <a href="#">home</a></li>
+            <li> <a href="#">home</a></li>
+            <li> <a href="#">home</a></li>
+        </ul>
+
+        <p>Lorem ipsum <strong> dolor </strong>  sit amet <span>"This is span tag"</span> consectetur adipisicing elit. Sunt, ratione! <q>this is quotes </q> 
+        </p>
+
+        <ul>
+            <li>first</li>
+            <li> second</li>
+            <li> third</li>
+        </ul>
+
+        <ol>
+            <li>CSE</li>
+            <li>ECE</li>
+            <li>CIVIL</li>
+        </ol>
+
+        <!-- other tags -->
+        
+        <p>Lorem ipsum, dolor <i> consectetur adipisicing</i> sit amet  elit. <ins> Veniam doloremque praesentium</ins>  perspiciatis, exercitationem consequuntur <del>laboriosam voluptatum dolor dolorem natus nam</del>, velit consectetur voluptas quaerat, <sup> sint modi eaque</sup>  officiis dolorum neque nihil quas! <sub>Dolore veritatis quo optio.</sub>  Iste earum <small> ipsam animi</small>  vel sit, unde cupiditate perferendis magnam, <b> excepturi ullam </b> aliquid voluptas!</p>
+
+        <hr>
+
+                        <!--  conatiner tags -->
+
+    <div>
+        <article>
+        <h2>A blog post</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat temporibus ducimus quas mollitia autem earum magni? Sit ex facilis incidunt!</p>
+        <a ...>Read more</a>
+        </article>
+        <article>
+        <h2>Another blog post</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat temporibus ducimus quas mollitia autem earum magni? Sit ex facilis incidunt!</p>
+        <a ...>Read more</a>
+        </article> <hr>
+
+    </div>
+
+    <section>
+        <h2>A section of the page</h2>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, omnis! Sint quod nostrum quasi ex eaque voluptate, veniam unde dicta!</p>
+        <img src="images/sourav.jpg" width="100px" alt="">
+    </section>
+
+                    <!-- tags related to page -->
+    <nav>
+        <ol>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Blog</a></li>
+        </ol>
+    </nav>
+
+    <header>
+        <h1>Article title</h1>
+    </header>
+
+    <main>
+        <p> hellooooo</p>
+    </main>
+
+    <footer>
+        <p>Footer notes..</p>
+    </footer> <hr>
+
+                        <!--   Form    
+    "name" value must be there to send data to server  -->
+                <h3>Create form :</h3>
+    <form action="" method="GET">
+        <input type="text" name="username" placeholder="Enter Name"><br>
+        <input type="email" name="Email" placeholder="Enter Email">
+        <input type="password" name="password" placeholder="Enter password"><br>
+        <input type="number" name="phone" min="10" max="15" placeholder="Phone "> <br>
+        <input type="file" name="document" accept=".jpg, .png, .pdf">
+         <br>
+        
+                        <!--  radio button -->
+                        <p>Select yout Fav color:</p>
+        <input type="radio" name="color" value="yellow"> yello
+        <input type="radio" name="color" value="blue"> green
+        <input type="radio" name="color" value="green"> blue
+        <br>
+
+                        <!--  check boxes -->
+
+        <p>Select your fav languages:</p>
+        <input type="checkbox" name="color" value="java" > java
+        <input type="checkbox" name="color" value="python"> python
+        <input type="checkbox" name="color" value="js"> javascript
+        <input type="checkbox" name="color" value="cpp"> C++
+        <br>
+
+        <input type="date" name="birthday">date of birth
+        <input type="time" name="time"> time <br>
+        <input type="month" name="month">month
+        <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{8}"> telephone <br>
+        <input type="url" name="website">your website
+
+        <input type="button" value="Click ">
+        <input type="submit" value="submit"> <br>
+
+                    <!-- dropdown menu -->
+    <h3>select City:</h3>
+    <select name="city" id="">
+        <option value="kolkata">kolkata</option>
+        <option value="noida">noida</option>
+        <option value="delhi">delhi</option>
+    </select>     
+    
+    <h3>select gender:</h3>
+    <select name="gender" id="">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="">None</option>
+    </select> 
+
+    </form> <hr>
+
+                    <!--  Table -->
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>About</th>
+            <th>Roll</th>
+        </tr>
+
+        <tr>
+            <td>sourav</td>
+            <td>cse</td>
+            <td>17</td>
+        </tr>
+
+        <tr>
+            <td>suman</td>
+            <td>cse</td>
+            <td>15</td>
+        </tr>
+
+        <tr>
+            <td>soumen</td>
+            <td>cse</td>
+            <td>16</td>
+        </tr>
+    </table> <br><br>
+
+
+                            <!--  span column and rows -->
+    <table>
+        <caption>College data</caption>
+        <tr>
+            <th>Name</th>
+            <th>suranme</th>
+            <th>Roll</th>
+        </tr>
+
+        <tr>
+            <td colspan="2">sourav Lakshan</td>
+            <td>17</td>
+            
+        </tr>
+
+        <tr>
+            <td colspan="3">ayan kumar samanta</td>
+            
+        </tr>
+
+    </table>  <br> <br>
+   
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>suranme</th>
+            <th>Roll</th>
+        </tr>
+
+        <tr>
+            <td colspan="2" rowspan="2">sourav Lakshan</td>
+            <td>17</td>
+            
+        </tr>
+
+        <tr>
+            <td >ayan</td>
+        </tr>
+
+        <tr>
+            <td>suman</td>
+            <td>cse</td>
+            <td>15</td>
+        </tr>
+
+
+    </table> <hr>
+
+    <figure>
+        <img src="images/sourav.jpg" width="150px" alt="my profile pic">
+        <figcaption>my profile pic</figcaption>
+    </figure>
+    
+
+    
+</body>
+</html>

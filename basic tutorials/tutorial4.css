@@ -1,0 +1,108 @@
+
+            /* font size and font family, font weight 
+
+            serif, sans-serif, cursive, fantasy, monospace.
+            
+            you can simple copy paste font style from #google-fonts 
+            you can embed the code in head section of html .
+            also u can import the font code in css file.
+            */
+
+body{
+    font-family: helvetica;
+    margin: 1rem;
+}
+
+        
+/* h1{
+    font-family: fantasy;
+
+} */
+
+/* h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+/* p{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+} */
+
+/* .subhead{
+    font-family: sans-serif;
+} */
+
+/* h2{
+    font-family:  sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+} */
+
+
+/* .para1{
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.para2{
+    font-style: unset;
+} */
+
+
+/* p{
+font-family: serif; 
+} */
+
+
+                            /* text indent, text align  */
+
+/* h1{
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+}
+
+.para1{
+    text-indent: 2rem;
+}
+
+.para2{
+    text-indent: 10rem;
+    font-style: italic;
+} */
+
+
+                        /* line height, letter spacing, word spacing, text transform, text decoration */
+
+h1{
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+h2{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.link{
+    font-size: 2rem;
+    font-family: 'Gill Sans', sans-serif;
+    text-decoration: none;
+    
+}
+
+.para1{
+    line-height: 1rem;
+    word-spacing: .5rem;
+    letter-spacing: .3rem;
+}
+
+.para2{
+    line-height: 1.5rem;
+    letter-spacing: .1rem;
+}
+
+

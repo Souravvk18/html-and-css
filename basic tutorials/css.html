@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css tutorial</title>
+    <style>
+
+                                /* positioning */
+    /* .parent {
+        background-color: #af47ff;
+        padding: 30px;
+        width: 300px;
+    }
+
+.child {
+    background-color: #ff4797;
+    padding: 30px;
+
+    position: relative;
+} */
+
+.box {
+    background-color: #f3ff47;
+    padding: 30px;
+    border: 2px solid #333;
+    border-style: dotted;
+    font-family: courier;
+    text-align: center;
+    font-size: 2rem;
+
+    /* position: relative;
+    top: -50px;
+    left: 70px; */
+
+    /* position: absolute;
+    top: 150px;
+    left: 60px; */
+    
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+
+    /* position: fixed;
+    top: 0; */
+
+}
+
+                        /* floating */
+
+.parent 
+{
+background-color: #af47ff;
+padding: 30px;
+width: 500px;
+}
+.child 
+{
+background-color: #ff4797;
+padding: 30px;
+}
+
+.box1
+{
+background-color: #f3ff47;
+padding: 30px;
+border: 2px solid #333;
+border-style: dotted;
+font-family: courier;
+text-align: justify;
+font-size: 1rem;
+}
+
+/* img{
+    float: right;
+    padding: 20px;
+    
+    float: left;
+    padding: 15px 15 10px 20px;
+    margin: 10px;
+    clear: left;
+    
+} */
+
+/* span{
+    float: left;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+} */
+
+
+                    /* filter */
+
+/* img{
+    filter: opacity(0.5);
+} */
+
+/* img{
+    filter: blur(2px);
+} */
+
+/* img {
+filter: drop-shadow(10px 10px 5px orange);
+} */
+
+/* img {
+filter: drop-shadow(5px 5px rgb(234, 0, 255));
+} */
+
+/* img {
+filter: grayscale(50%);
+} */
+
+
+/* img {
+filter: invert(20%);
+} */
+
+/* img {
+filter: hue-rotate(90deg);
+} */
+
+/* img {
+filter: brightness(140%);
+} */
+
+/* img {
+filter: saturate(60%);
+} */
+
+                    /* css animation */
+body {
+display: grid;
+place-items: center;
+height: 100vh;
+}
+.circle {
+border-radius: 50%;
+left: calc(50% - 6.25em);
+top: calc(50% - 12.5em);
+transform-origin: 50% 12.5em;
+width: 12.5em;
+height: 12.5em;
+position: absolute;
+box-shadow: 0 1em 2em rgba(0, 0, 0, .5);
+}
+.one,
+.three {
+background: rgba(142, 92, 205, .75);
+}
+.two,
+.four {
+background: rgba(236, 252, 100, .75);
+}
+.one {
+transform: rotateZ(0);
+}
+
+.two {
+transform: rotateZ(90deg);
+}
+.three {
+transform: rotateZ(180deg);
+}
+.four {
+transform: rotateZ(-90deg);
+}
+
+
+@keyframes spin {
+0% {
+transform: rotateZ(0);
+}
+25% {
+transform: rotateZ(30deg);
+}
+50% {
+transform: rotateZ(270deg);
+}
+75% {
+transform: rotateZ(180deg);
+}
+100% {
+transform: rotateZ(360deg);
+}
+}
+
+.container {
+animation: spin 10s linear infinite;
+}
+
+/* @keyframes spin {
+0% {
+transform: rotateZ(0);
+}
+25% {
+transform: rotateZ(30deg);
+}
+50% {
+transform: rotateZ(270deg);
+}
+75% {
+transform: rotateZ(180deg);
+}
+100% {
+transform: rotateZ(360deg);
+}
+} */
+
+
+    </style>
+</head>
+
+<body>
+
+                <!-- positioning -->
+
+    <div class="parent">
+        <div class="child">
+            <div class="box">
+                <p>Test</p>
+            </div>
+        </div>
+    </div>
+
+                             <!-- floating  -->
+
+    <div class="parent">
+        <div class="child">
+            <div class="box1">
+                <p>This is some random paragraph and an image. <img src="images/sourav.jpg" width="80px" alt=""> <img src="images/sourav.jpg" width="80px" alt=""> <img src="images/sourav.jpg" width="80px" alt="">  The image is in the middle of the text. <br> The image is in the middle of the text.  The image is in the middle of the text. <br> <br> The image is in the middle of the text. The image is in the middle of the text. The image is in the middle of the text. <br> <br> The image is in t
+                    he middle of the text. <span> The image is </span>  in the middle of the text. The image is in the middle
+                    of the text.</p>
+            </div>
+        </div>
+    </div>
+
+                    <!-- filter -->
+    <!-- <div>
+        <h2>my photo</h2>
+        <img src="images/sourav.jpg" width="350px" alt="">
+    </div> -->
+
+    <!-- css animation -->
+
+    <div class="container">
+        <div class="circle one"></div>
+            <div class="circle two"></div>
+            <div class="circle three"></div>
+        <div class="circle four"></div>
+</div>
+
+</body>
+</html>

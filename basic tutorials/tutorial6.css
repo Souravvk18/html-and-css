@@ -1,0 +1,118 @@
+
+              /* Display - block, inline, inline-block, 
+            block- always starts a new line and takes full width.(div, head, p) -- top bottom margin respected.
+
+            inline- does not start and take up as much as content space.
+            (span, a, img) -- top bottom margin not respected.  */
+
+/* body{
+    text-align: center;
+}
+
+.block{
+    background-color: pink;
+    width: 150px;
+    margin: 1rem auto;
+}
+
+.inline{
+    background-color: rgb(0, 255, 157);
+   
+} */
+
+                    /* navbar-- u need to specify display-block in case of navbar. bcoz the default value is inline */
+
+
+/* *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background-color: antiquewhite;
+    display: block;
+    padding: .5rem;
+    margin: .5rem;
+} */
+
+
+
+                             /*  Inline block */
+/* a{
+    font-size: 3rem;
+    background-color: antiquewhite;
+    margin: 20px;
+    display: inline-block;
+
+} */
+
+                            /*  border box-- it does not increase the actual length(size) of the box. 
+                            without border box the size will increase as u assign extra padding. */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+                           
+.box-1, .box-2, .box-3{
+    width: 200px;
+    height: 200px;
+}
+
+.box-1{
+    background-color: aquamarine;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+.box-2{
+    background-color: rgb(58, 39, 128);
+}
+.box-3{
+    background-color: rgb(240, 89, 232);
+    padding: 1.5rem;
+} */
+
+
+
+                              /* display-none -totallly rid of the element.
+                              opacity- 0  - would take space but remain hidden
+                              visibility - hidden --would take space but remain hidden */
+
+div{
+    background-color: blue;
+    margin: 1rem;
+    color: aliceblue;
+}
+
+
+.none{
+    display: none;
+}
+
+.opacity{
+    opacity: 1;
+}
+.opacity-0{
+    opacity: 0;
+}
+
+
+.opacity-5{
+    opacity: .5;
+}
+
+.visibility{
+    visibility: hidden;
+}

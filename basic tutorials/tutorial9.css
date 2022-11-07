@@ -1,0 +1,286 @@
+                    /*  Basic selectors */
+/* *{
+    color: red;
+} */
+
+                        /* ID */
+/* #heading{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: blue;
+} */
+
+                        /* Class */
+/* .heading{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: green;
+}
+
+p{
+    letter-spacing: .5rem;
+} */
+
+                /* Descendent and child combinators */
+
+/* .header h1{
+color: rgb(240, 48, 48);
+}
+
+div h1{
+    color: rgb(255, 0, 221);
+}
+
+div > h1 {
+    color: rgb(18, 18, 247);
+}
+
+.header > h1{
+    color: purple;
+}
+
+li h1{
+    color: blueviolet;
+} */
+
+
+                            /*  first line and first letter */
+
+/* p::first-line{
+    font-weight: bold;
+}
+
+p::first-letter{
+    font-size: 3rem;
+} */
+
+                            /* hover */
+
+/* p:hover{
+    font-size: 1.5rem;
+}
+
+
+.header:hover{
+    background-color: rgb(70, 38, 248); 
+    color: aliceblue;
+}
+
+div{
+    margin: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+a{
+    font-size: 1.5rem;
+    background-color: rgb(33, 229, 243);
+    padding: .5rem;
+    font-weight: bold;
+} */
+
+                        /*  active link, visited link,  */
+
+
+/* a:visited{
+    color: rgb(29, 14, 245);
+}
+
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+a{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(235, 8, 186);
+}
+
+a:active{
+    color: green;
+} */
+
+                    /*  Root element */
+
+
+/* :root{
+    background-color: aqua;
+    font-size: 150%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.absolute{
+    font-size: 24px;
+}
+.responsive{
+    font-size: 1.5rem;
+} */
+
+
+
+
+                        /*  transform, transition, animation */
+
+/* div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+} */
+
+                        /*  Transform - translate */
+
+/* .one{
+    background-color: red;
+    transform: translateX(50%);
+}
+.two{
+    background-color: rgb(0, 247, 255);
+    transform: translateY(75px);
+}
+.three{
+    background-color: rgb(25, 0, 255);
+    transform: translate(-50px, 100px);
+    
+} */
+
+                    /* Transform - Scale */
+
+/* .one{
+    background-color: red;
+    transform: scaleX(0.5);
+}
+.two{
+    background-color: rgb(0, 247, 255);
+    transform: scaleY(0.5);
+}
+.three{
+    background-color: rgb(25, 0, 255);
+    transform: scale(1.5, 0.5);
+    
+} */
+
+                                /*  Transform - rotate */
+
+/* .one{
+    background-color: red;
+    transform: rotate(45deg);
+}
+.two{
+    background-color: rgb(0, 247, 255);
+    transform:rotate(60deg);
+}
+.three{
+    background-color: rgb(25, 0, 255);
+    transform: rotate(60deg); 
+    transform: rotateX(90deg);
+    transform: rotateY(40deg);
+} */
+
+
+                            /*  Transform - skew */
+
+/* .one{
+    background-color: red;
+    transform: skewX(35deg);
+}
+.two{
+    background-color: rgb(0, 247, 255);
+    transform: skew(-20deg);
+}
+
+.three{
+    background-color: rgb(25, 0, 255);
+    transform: skew(-20deg, 10deg);
+
+} */
+
+
+                    /*  Transition: change over time
+                        Transition: property 
+                        Transition: duration  */
+
+/* div{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+
+}
+
+ div:hover{
+    background: rgb(248, 38, 196);
+}
+
+.one{
+    background-color: red;
+    transition-duration: 2s;
+    
+}
+.two{
+    background-color: rgb(0, 247, 255);
+    transition-delay: 1s;
+} 
+
+.three{
+    background-color: rgb(25, 0, 255);
+    transition-duration: 1s;
+    transition: background 2s ;
+    
+
+} 
+
+.three:hover{
+    border-radius: 50%;
+} */
+
+
+                    /* transition timing function 
+                    ease - default
+                    ease- slow start, fast, slow end. 
+                    linear - same speed start to end
+                    ease-in - slow start
+                    ease-out- slow end
+                    ease in out- same as ease*/
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(247, 0, 255);
+    color: white;
+    margin: 1rem;
+    transition: all 1s ;
+}
+
+div:hover{
+    transform: translateX(100px);
+}
+
+.ease{
+    transition-timing-function: ease;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease-in{
+    transition-timing-function: ease-in;
+}
+.ease-out{
+    transition-timing-function: ease-out;
+}
+.ease-in-out{
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+

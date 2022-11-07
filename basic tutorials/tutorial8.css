@@ -1,0 +1,269 @@
+
+
+                            /* float, position, zindex, media queries. */
+
+/* .banner{
+    border: 5px solid red;
+    padding: .5rem;
+    overflow: hidden;
+}
+
+.one{
+    width: 100px;
+    height: 120px;
+    float: right;
+    margin-left: 2rem;
+} */
+
+
+/* p{
+    clear: both;
+} */
+
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+
+
+/* div{
+    float: left;
+    height: 300px;
+    width: 33.3%;
+}
+
+
+.one{
+    background-color: red;
+    
+}
+.two{
+    background-color: rgb(0, 4, 255);
+    
+}
+.three{
+    background-color: rgb(0, 255, 255);
+    
+}
+
+h1{
+    clear: both;
+} */
+
+                        /*   position */
+
+/* div{
+    border: solid 3px red;
+    background-color: rgb(187, 255, 0);
+    margin-top: 2rem;
+    position: relative;
+}                    */
+
+
+                    /* relative */
+
+/* .one{
+    background-color: blue;
+    position: relative;
+    top: 5rem;
+    left: 10rem;
+    right: 50%;
+    bottom: 1rem;
+} */
+
+
+/* .one{
+    background-color: blue;
+}
+
+
+.two{
+    background-color: rgb(0, 217, 255);
+} */
+
+                         /* absolute */
+
+/* .special{
+    background-color: pink;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+} */
+
+
+                            /* position - fixed */
+
+/* button{
+    background-color: red;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 0;
+} */
+
+
+                        /* media queries
+                        responsive design
+                        style element on different screen size 
+                        min width-- starting from 
+                        max width - upto
+                        mobile first( within 340px) */
+                
+
+
+/* body{
+    background-image: url(./images/Hacker.jpg); 
+   background-position: center;
+    background-color: rgb(43, 226, 156);
+}
+
+.banner{
+    background-color: rgb(255, 0, 221);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+
+} */
+
+
+/* 
+@media screen and (min-width:576px) {
+    body{
+       background-color: rgb(141, 235, 235);
+    }
+
+    .banner{
+        background-color: rgb(212, 0, 255);
+    }
+} */
+
+
+/* @media screen and (max-width:576px) {
+    body{
+       background-color: rgb(141, 235, 235);
+    }
+
+    .banner{
+        background-color: rgb(212, 0, 255);
+        border-radius: 3rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+} */
+
+
+/* @media screen and (min-width:768px) {
+    body{
+       background-color: rgb(235, 141, 227);
+    }
+
+    .banner{
+        background-color: rgb(255, 153, 0);
+    }
+
+    h1{
+        color: yellow;
+        text-align: left;
+        font-size: 3rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+} */
+
+
+
+                            /*  Z-index */
+
+/* img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+.banner{
+    margin: 1.5rem;
+    width: 65vw;
+    height: 70vh;
+    border: 5px solid red;
+    position: relative;
+}
+
+.one{
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: 100;
+}
+.two{
+    top: 15%;
+    left: 15%;
+    z-index: 1;
+}
+.three{
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+} */
+
+
+                            /* pseudo element */
+
+p::before{
+    content: "hello";
+    font-weight: bold;
+    display: block;
+    background-color: antiquewhite;
+    font-size: 2rem;
+    color: rebeccapurple;
+}
+
+/* p::after{
+    content: "world";
+    font-weight: bold;
+    font-size: 2rem;
+    color: rebeccapurple;
+    display: block;
+    background-color: antiquewhite;
+} */
+
+
+p::after{
+    content: "" ;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+
+}
+
+div{
+    width: 50vw;
+    margin: 100px ;
+    border: 3px solid red;
+
+}
+
+
+img{
+    width: 100%;
+    display: block;
+}
+
+div::before{
+    content: " universe";
+    font-size: 2rem;
+    background-color: aquamarine;
+}
+
+
+
