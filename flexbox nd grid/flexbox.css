@@ -1,0 +1,129 @@
+/*  flexbox tutorials videos */
+
+
+body{
+    background-color: bisque;
+    margin: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+div:nth-child(2){
+    background-color: coral;
+}
+
+div{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    background-color: aquamarine;
+    
+}
+
+/* .container{
+    border: 4px solid yellow;
+    display: flex;
+} */
+
+    /* 5. align items--stretch , flex-start, flex-end, center*/
+
+    /* height: 95vh;
+    align-items: center; */
+
+    /* 1.  main axis and cross axis */
+
+    /* flex-direction: column;
+    justify-content: flex-end;
+    height: 95vh;
+    align-items: flex-end; */
+
+    /* 2. justify content--flex-start flex-end center spcae around space between space-evenly */
+
+    /* justify-content: center; */
+
+
+
+/* .contact{
+    align-self: flex-start;
+}
+
+.home{
+    align-self: flex-end;
+} */
+
+
+   /* 3. positioning */
+
+/* .home{
+   margin-right: auto; 
+}
+.contact{
+   margin-left: auto;
+} */
+
+
+/*  4. flex property -- flex-grow, flex-shrink, flex-basis */
+
+/* .container div{
+    flex: 1;
+} */
+
+ /* .about{
+    flex: 2;
+} */
+
+ /* .contact, .home{
+    flex: 2;
+} */
+
+
+ /*           8. wrapping up */
+
+ /* .container{
+    border: 4px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div{
+    width: 400px;
+} */
+
+
+.container{
+    border: 4px solid yellow;
+    display: flex;
+}
+
+/*    9.  flex, grow, shrink, basis */
+
+
+/* .home{
+
+    flex: 1 1 200px;
+    
+}
+
+.contact {
+    
+    flex-grow: 10;
+    flex-shrink: 1;
+    flex-basis: 200px;
+} */
+
+/*        10. order  */
+
+/* .item1{
+    order: 1;
+}
+
+.item2{
+    order: 0;
+}
+
+.item3{
+    order: -1;
+} */
+
+/*  11.  responsive navbar */
